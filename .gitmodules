@@ -1,0 +1,3 @@
+[submodule "src"]
+	path = src
+	url = https://github.com/scbowler/sweet-corner-components-mod-4.git
