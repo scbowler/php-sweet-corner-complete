@@ -1,11 +1,11 @@
 {
-  "name": "php_react_starter",
+  "name": "php_sweet_corner",
   "version": "1.1.0",
-  "description": "Starting setup for ReactJS ReduxJS project with PHP server",
+  "description": "Sweet corner project with php backend",
   "main": "index.js",
   "proxy": {
     "/api/*": {
-      "target": "http://localhost:8000"
+      "target": "http://localhost/projects/php-sweet-corner-mod-4/public"
     }
   },
   "scripts": {
@@ -17,13 +17,15 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Learning-Fuze/react_starter.git"
+    "url": "https://github.com/scbowler/php-sweet-corner-complete.git"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
+    "react-router-dom": "^5.0.1",
     "redux": "^4.0.1"
   },
   "devDependencies": {

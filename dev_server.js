@@ -26,7 +26,7 @@ const server = new WebpackDevServer(webpack(config), {
     }
 });
 
-server.listen(PORT, 'localhost', () => {
+server.listen(PORT, () => {
     console.log('\n\x1b[36m%s\x1b[33m%s\x1b[0m', 'Dev server running at ', 'localhost:' + PORT);
     console.log('\x1b[32m%s\x1b[0m', '\nWebpack compiling...\n');
 }).on('error', error => {

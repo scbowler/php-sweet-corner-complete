@@ -13,6 +13,9 @@ module.exports = merge(common, {
     devtool: 'inline-source-map',
     mode: 'development',
     plugins: [
-        new webpack.NamedModulesPlugin()
+        new webpack.NamedModulesPlugin(),
+        new webpack.DefinePlugin({
+            '__REACT_DEVTOOLS_GLOBAL_HOOK__': '({ isDisabled: true })'
+        })
     ]
 });
