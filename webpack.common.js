@@ -49,5 +49,13 @@ module.exports = {
                 }
             }
         ]
+    },
+    resolve: {
+        alias: {
+            actions: resolve(__dirname, 'src', 'actions'),
+            assets: resolve(__dirname, 'src', 'assets'),
+            components: resolve(__dirname, 'src', 'components'),
+            helpers: resolve(__dirname, 'src', 'helpers')
+        }
     }
 };
